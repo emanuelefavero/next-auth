@@ -2,6 +2,10 @@
 
 This is a starter project for Next.js with authentication using [NextAuth.js](https://next-auth.js.org/)
 
+#### Screenshot
+
+<img src="screenshot.png" alt="screenshot" width="150">
+
 ## Getting Started
 
 - clone this repo and `cd` into it

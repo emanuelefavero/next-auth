@@ -9,7 +9,7 @@ This is a starter project for Next.js with authentication using [NextAuth.js](ht
 - Add `.env` file to the root of the project with the following content:
 
 ```bash
-# You will find these values in your GitHub OAuth App settings in Developer Settings on GitHub
+# You will find these values in your GitHub OAuth App settings in Developer Settings on GitHub (Client ID and client secret), you will need to create a new OAuth App
 GITHUB_ID=YOUR_GITHUB_ID
 GITHUB_SECRET=YOUR GITHUB SECRET
 

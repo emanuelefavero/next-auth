@@ -47,3 +47,7 @@ npm run dev
 
 - [How to set up Providers](https://next-auth.js.org/configuration/providers/oauth#built-in-providers)
 - [NextAuth.js Getting Starter](https://next-auth.js.org/getting-started/example)
+
+## License
+
+- [MIT](LICENSE.md)

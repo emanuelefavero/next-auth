@@ -2,6 +2,17 @@
 
 This is a starter project for Next.js with authentication using [NextAuth.js](https://next-auth.js.org/)
 
+## IMPORTANT
+
+When you are deploying your application to production, remember to set `Homepage URL` and `Authorization callback URL` in your GitHub OAuth App settings in Developer Settings on GitHub.
+
+> Do the same for other providers
+
+#### Example
+
+- Homepage URL: `https://yourdomain.com`
+- Authorization callback URL: `https://yourdomain.com/api/auth/callback/github`
+
 #### Screenshot
 
 <img src="screenshot.png" alt="screenshot" width="150">
@@ -13,7 +24,7 @@ This is a starter project for Next.js with authentication using [NextAuth.js](ht
 - Add `.env` file to the root of the project with the following content:
 
 ```bash
-# You will find these values in your GitHub OAuth App settings in Developer Settings on GitHub (Client ID and client secret), you will need to create a new OAuth App
+# You will find these values in your GitHub OAuth App settings in Developer Settings on GitHub (Client ID and client secret), you will need to create a new OAuth App (remember to set Homepage URL and Authorization callback URL to production URL during production)
 GITHUB_ID=YOUR_GITHUB_ID
 GITHUB_SECRET=YOUR GITHUB SECRET
 

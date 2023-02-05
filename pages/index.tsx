@@ -7,8 +7,14 @@ export default function Page() {
   if (session) {
     return (
       <div className='container'>
-        <Image src={session.user.image} alt='user' width={100} height={100} />{' '}
-        Signed in as <b>{session.user.name}</b>
+        <Image
+          priority
+          src={session.user?.image as string}
+          alt='user'
+          width={100}
+          height={100}
+        />{' '}
+        Signed in as <b>{session.user?.name}</b>
         <button onClick={() => signOut()} className='sign-out'>
           Sign out
         </button>
